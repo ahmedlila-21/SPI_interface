@@ -1,2 +1,5 @@
 # SPI_interface
-This SPI slave system uses an FSM-controlled SPI interface connected to a single-port RAM for serial communication, data storage, and retrieval.
+The project implements an SPI slave in Verilog using an FSM with different state encodings (Gray, One-Hot, and Sequential) to optimize timing performance.
+It interfaces with a single-port RAM to support SPI read/write operations through MOSI, MISO, and SS signals.
+The design also includes timing analysis, synthesis/implementation reports, debug core integration, and FPGA bitstream generation for hardware verification.
+
